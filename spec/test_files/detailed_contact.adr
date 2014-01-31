@@ -1,0 +1,18 @@
+Opera Hotlist version 2.0
+Options: encoding = utf8, version=3
+
+#CONTACT
+	ID=11
+	NAME=root-contact
+	URL=http://www.homepage.com/
+	CREATED=1390985060
+	DESCRIPTION=NotesAnd a new line
+	SHORT NAME=chat-nicknames
+	ACTIVE=YES
+	MAIL=email@example.comadditional@example.com emails@example.com
+	PHONE=Phone
+	FAX=Fax
+	POSTALADDRESS=Postal address
+	PICTUREURL=
+	ICON=Contact0
+

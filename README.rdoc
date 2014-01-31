@@ -1,0 +1,24 @@
+= opera-contacts
+
+This library parses the Opera browser's contacts file (called 'contacts.adr').
+
+Usage example:
+
+    require 'opera-contacts'
+    hotlist_string = File.open("contacts.adr", "r:UTF-8").read
+    contacts_tree = OperaContacts.parse_s(hotlist_string)
+
+    puts("== Top level items (folders or contacts)")
+    contacts_tree.each{|i| puts(i.name)}
+
+    puts("== Top level folders")
+    contacts_tree.folders.each{|f| puts(f.name)}
+
+    puts("== Top level contacts")
+    contacts_tree.contacts.each{|c| puts(c.name)}
+
+== Copyright
+
+Copyright (c) 2014 Stefan Schneider-Kennedy. See LICENSE.txt for
+further details.
+
