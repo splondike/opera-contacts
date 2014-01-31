@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "lib/opera-contacts.rb",
     "lib/opera-contacts/contacts.rb",
     "lib/opera-contacts/parser.rb",
+    "opera-contacts.gemspec",
     "spec/parser_spec.rb",
     "spec/test_files/broken_indentation.adr",
     "spec/test_files/detailed_contact.adr",
